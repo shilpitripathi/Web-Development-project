@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <style type="text/css">
+        .book1{
+            background-color: rgb(36, 35, 35);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        .home{
+            background-color: black;
+            color: red;
+            text-align: end;
+            padding: 8px;
+
+        }
+        .section{
+            border: 1px;
+            border-radius: 10px;
+            width: 500px;
+            background-color: white;
+            margin-left: 400px;
+            margin-top: 20px;
+        }
+        .explore{
+            margin-left: 2px;
+            padding: 8px;
+            font-weight: bold;
+        }
+        img{
+            margin-left: 8px;
+        }
+        .details{
+            margin-left: 10px;
+            line-height: 25px;
+        }
+        summary{
+            font-weight: bold;
+        }
+        li{
+            font-size: 14px;
+        }
+        .footer{
+            font-weight: bold;
+            padding: 20px;
+        }
+        .form{
+            border: 1px solid rgb(236, 233, 233);
+            border-radius: 5px;
+            width: 300px;
+            padding: 15px;
+            margin-left: 100px;
+            background-color: rgb(248, 245, 245);
+
+        }
+       .input{
+        width: 100%;
+       }
+       .foot{
+            background-color: rgb(40, 39, 39);
+            color: white;
+            text-align: center;
+            padding: 8px;
+            margin-top: 40px;
+        }
+        .feed{
+            padding-bottom: 70px;
+        }
+        @media (orientation: portrait)
+        {
+           .section{
+            width: 300px;
+            margin-left: 50px;
+           }
+           .form{
+            width: 200px;
+            margin-left: 20px;
+           }
+        }
+    </style>
+</head>
+<body style="background-color: pink;">
+    <header>
+        <div class="book1">
+            <span>Book Showcase: Book 1 Details</span>
+        </div>
+        <div class="home">
+            <a href="./index.html">Home</a>
+        </div>
+    </header>  
+    <section class="section">
+        <div class="explore">Book 1: Exploring Technology</div>
+        <div><img src="public/images/img1.png" alt="img1" height="250px" width="200px"></div>
+
+        <div class="details">
+            <details>
+                <summary>Genre</summary>
+                <li>Technology</li>
+                <li>Education</li>
+            </details>
+            <details>
+                <summary>Index Page</summary>
+                <li>Introduction</li>
+                <li>Chapter 1: Overview</li>
+                <li>Chapter 2: Advanced Concepts</li>
+            </details>
+
+            <details>
+                <summary>Authors</summary>
+                <li>xyz</li>  
+            </details>
+
+            <details>
+                <summary>Overview</summary>
+                <p>This book provides detailed insights into Technology and communication skills for professionals and students</p> 
+            </details>
+
+            <details>
+                <summary>Competitive Exam Relevance</summary>
+                <p>Highly recommended for IT and communication-related government exams</p>
+            </details>
+
+            <details>
+                <summary>Purchase Links</summary>
+                <li><a href=""><b>Amazon</b></a></li>
+                <li><a href=""> <b>Flipkart</b></a></li> 
+            </details>
+        </div>
+
+        <div class="footer">
+            Feedback Form
+        </div>
+        <div class="feed">
+        <form action="" class="form">
+            <label for=""><b>Name:</b></label> <br>
+            <input type="text" name="" id="" class="input"> <br><br>
+            <label for=""><b>Feedback:</b></label> <br>
+            <textarea name="" id=""  class="input">
+            </textarea>
+            <button  type="button" class="btn btn-primary w-100">Submit Feedback</button>
+        </form>
+    </div>
+    </section>   
+    <footer class="foot">
+        <div class="fill">
+            <span class="bi bi-circle-fill">2025 Book Showcase|All rights reserved</span>
+        </div>
+    </footer>  
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <style type="text/css">
+        .value{
+            color: yellow;
+            font-weight: bold;
+            text-align: center;
+            font-size: 25px;
+            padding: 20px;
+        }
+        .head{
+            background-color: black;
+            margin-top: 5px;
+        }
+        .explore{
+            font-size: 20px;
+            font-weight: bold;
+            margin-left: 15px;
+        }
+        img{
+            height: 300px;
+            width: 200px;
+            margin-right: 50px;
+            margin-left: 140px;
+            padding: 10px;
+            transition: 2s;
+        }
+        .foot{
+            background-color: rgb(40, 39, 39);
+            color: white;
+            text-align: center;
+            padding: 8px;
+            margin-top: 115px;
+        }
+        .image1:hover{
+            transform: rotateY(120deg);
+        }
+        .image2:hover{
+            transform: rotateY(120deg);
+        }
+        .image3:hover{
+            transform: rotateY(120deg);
+        }
+        @media (orientation: portrait) {
+            section{
+                margin-right: 30px;
+            }
+           .explore{
+            font-size: 30px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: beige;
+            width: 500px;
+            padding: 5px;
+            margin-left: -10px;
+            margin-right: -40px;
+           }
+           img{
+            display: inline-block;
+            justify-content: space-evenly;
+            margin-top: 50px;
+           }
+        } 
+    </style>
+</head>
+<body style="background-image: linear-gradient(to right,rgb(241, 177, 188),rgb(201, 201, 101),rgb(225, 168, 168))">
+    <header class="head">
+        <p class="value">Welcome to Book Showcase</p>
+    </header>
+    <section>
+        <div class="explore">
+            <span>Explore Books</span>
+        </div>
+        <div class="image">
+           <a href="./book1.html"><img src="public/images/img1.png" alt="img1" class="image1"></a>
+            <a href="./book2.html"><img src="public/images/img2.png" alt="img2" class="image2"></a>
+            <a href="./book3.html"><img src="public/images/img 3.png" alt="img3" class="image3"></a>
+        </div>
+    </section>
+    <footer class="foot">
+        <div class="fill">
+            <span class="bi bi-circle-fill">2025 Book Showcase|All rights reserved</span>
+        </div>
+    </footer>
+    
+</body>
+</html>
